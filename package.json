@@ -4,20 +4,23 @@
   "description": "Google Search Bar Component using HTML, CSS, JS",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "deploy" : "gh-pages -d public"
+
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/msboffl/Google-Search-Bar.git"
   },
-  "author": "Mareedu Saibab",
+  "author": "Mareedu Saibabu",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/msboffl/Google-Search-Bar/issues"
   },
-  "homepage": "https://github.com/msboffl/Google-Search-Bar#readme",
+  "homepage": "https://msboffl.github.io/google-search-bar",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "gh-pages": "^3.2.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
